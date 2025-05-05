@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7ff, #ffffff);
+  overflow-x: hidden;
+}
+
+.hero-section {
+  position: relative;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  padding: 100px 20px;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-section {
+  background: linear-gradient(to bottom, #d7e8f9, #f0f4f8);
+  min-height: 100vh;
+}
+
+.profile-section {
+  background: linear-gradient(to bottom right, #a6c0fe, #f68084);
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  animation: spin 20s linear infinite;
+  margin-bottom: 20px;
+}
+
+.logo-sm {
+  width: 180px;
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-control:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.3);
+}
