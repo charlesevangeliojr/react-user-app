@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await fetch(" https://realtor-automobile-farm-turkish.trycloudflare.com/login.php", {
+      const response = await fetch("https://ir-naked-cancelled-kennedy.trycloudflare.com/login.php", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(loginData),
@@ -39,7 +39,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://realtor-automobile-farm-turkish.trycloudflare.com/register.php", {
+      const response = await fetch("https://ir-naked-cancelled-kennedy.trycloudflare.com/register.php", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(registerData),
